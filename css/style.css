@@ -18,6 +18,13 @@ body {
   height: 100%;
 }
 
+.portfolio-header{
+	margin-left: 15px;
+}
+
+.page-content {
+	
+}
 .site-footer {
   position: absolute;
   bottom: 0;

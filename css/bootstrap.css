@@ -66,7 +66,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  /*background-color: #ECECED;*/
+  background-color: #f0d2c3;
 }
 
 [tabindex="-1"]:focus {
@@ -4842,7 +4843,8 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  /*background-color: #e9ecef;*/
+  background-color: #a0c2db;
   border-radius: 0.3rem;
 }
 
@@ -6094,7 +6096,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #97AD6A !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
