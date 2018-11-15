@@ -11,10 +11,10 @@
 	<title>Find Your Next City</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../../../css/style.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
 
   </head>
 
@@ -24,18 +24,18 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <!--remove href tag here if I won't have name be link-->
-        <a class="navbar-brand" href="../../../index.html">Alex Zarley</a>
+        <a class="navbar-brand" href="../../index.html">Alex Zarley</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="../../../index.html#portfolio">Portfolio
+              <a class="nav-link" href="../../index.html#portfolio">Portfolio
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../../resume/index.html">Resume</a>
+              <a class="nav-link" href="../../resume/index.html">Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -54,7 +54,7 @@
         	<div class="col-lg-12">
 
           		<!-- Title -->
-          		<h1 class="mt-4 text-center display-4"><strong>Coastal Vulnerability to Sea Level Rise</strong><a class="portfolio-link" href="../../../index.html#portfolio">/ portfolio</a></h1>
+          		<h1 class="mt-4 text-center display-4"><strong>Coastal Vulnerability to Sea Level Rise</strong><a class="portfolio-link" href="../../index.html#portfolio">/ portfolio</a></h1>
 
  
 
@@ -69,17 +69,18 @@
 
 		        <!-- Post Content -->
 		        <p><strong>About:</strong>
-				This is my <a href="https://github.com/geog575-spring2016/best-places-to-live">final group project</a> for my interactive cartography and geovisualization course. We worked in a group of three over one month and were allowed to create any interactive map we wanted. This map allows you to choose a number of things that matter in your life, choose how important each one is, and then see which of the 50 largest cities in the US is best according to your selections. The data comes from many sources that ranked cities from across the US on their liveability according to the specified attribute.
+				      This assignment had us choose a multivariate dataset with which we could learn D3 by creating an <a href="https://github.com/CartoAZ/CoastalVulnerability">interactive choropleth map</a> and a linked visualization. The datasets I used came from a <a href="http://pubs.usgs.gov/of/1999/of99-593/pages/cvi.html">USGS study</a> that was published in 1999-2000. This map and parallel coordinate plot visualize this dataset in geographic, as well as attribute, space and allow you to expolore the vulnerability to future sea level rise of each state along the US Atlantic and Gulf coasts. You can change the attribute being displayed in the dropdown menu and add filters on any variable by clicking and dragging vertically on the parallel coordinate plot. The shapefiles and attribute data for each individual state can also be downloaded by clicking the export button.
+            </p>
 
       			<hr>
 
       			<p><strong>Process:</strong>
-				We used GitHub to set milestones, track bugs and enhancements, and manage the overall project. I served as project manager and was responsible for building the attribute panel, the city panel, and creating the scoring algorithm. I mainly used D3 for the build, but also used jQuery when certain HTML elements could not be accessed properly by D3 selections. Static styling was done in CSS and dynamic styling was done in JavaScript.
-
+				      This required project required a lot of data preprocessing. The datasets for each coast had to be combined, and then a state identifier had to be assigned to each segment of coastline using SQL queries in ArcGIS. Once the data was converted from shapefile to topojson, I used D3 and JavaScript to create the map, the linked parallel coordinate plot and the other elements on the webpage. Static styling was done in CSS and dynamic styling was done with D3 and JavaScript.
+            </p>
 				<hr>
 
 		        <!-- Date/Time -->
-		        <p>Completed May 2016</p>
+		        <p>Completed April 2016</p>
 		        
         	</div>
         </div>
@@ -124,8 +125,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="js/jquery/jquery.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
+    <script src="../../js/jquery/jquery.js"></script>
+    <script src="../../js/bootstrap/bootstrap.bundle.js"></script>
 
   </body>
 
