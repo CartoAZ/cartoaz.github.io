@@ -1,0 +1,35 @@
+.portfolio-thumbnail {
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #2d5223;
+}
+
+.portfolio-link {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: #3a6a2d;
+}
+
+a .post-link {
+    color: #3a6a2d;
+}
+
+.portfolio-thumbnail {
+  margin-top: 10px;
+}
+
+.thumbnail {
+  margin-bottom: 0;
+}
+
+.portfolio-thumbnail:hover {
+    border-color: #a74ea5;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+/*.portfolio-asset {text-align: center; margin-bottom: 0; }*/
+
+/*.portfolio-caption { text-align: center; }*/
