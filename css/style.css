@@ -39,7 +39,7 @@ body {
 }
 .contact-header {
 	color:#EEE1C6;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 2;
 }
 /*icons*/
@@ -67,9 +67,15 @@ body {
   }
 
 .contact-text{
+    color: #EEE1C6;
     font-size: 1.1rem;
     line-height: 3;
     vertical-align: middle;
+
+}
+.contact-text:hover {
+    color: #0077C0;
+    text-decoration: underline;
 }
 
 .portfolio-asset {
