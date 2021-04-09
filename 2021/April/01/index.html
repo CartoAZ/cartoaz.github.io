@@ -5,16 +5,16 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
-    <meta name="keywords" content="GIS, maps, cartography, alex zarley, alex, zarley, alexander zarley, USGS CVI, coastal vulnerablity"/>
-    <meta name="description" content="full page description of 'Coastal vulnerability' interactive map">
+    <meta name="keywords" content="GIS, maps, cartography, alex zarley, alex, zarley, alexander zarley, data quality framework"/>
+    <meta name="description" content="full page description of 'GIS Data Quality Reporting Framework and Dashboard' project">
     <meta name="author" content="Alex Zarley">
-	<title>Coastal Vulnerability Index</title>
+	<title>GIS Data Quality Reporting Framework and Dashboard</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../../css/style.css" rel="stylesheet">
 
   </head>
 
@@ -24,18 +24,18 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <!--remove href tag here if I won't have name be link-->
-        <a class="navbar-brand" href="../../index.html">Alex Zarley</a>r
+        <a class="navbar-brand" href="../../../index.html">Alex Zarley</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="../../index.html#portfolio">Portfolio
+              <a class="nav-link" href="../../../index.html#portfolio">Portfolio
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="../../assets/Zarley_Resume_20210408.pdf">Resum&eacute;</a>
+              <a class="nav-link" target="_blank" href="../../../assets/Zarley_Resume_20210408.pdf">Resum&eacute</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact-info">Contact</a>
@@ -54,7 +54,7 @@
         	<div class="col-lg-12">
 
           		<!-- Title -->
-          		<h1 class="mt-4 text-center display-4"><strong>Coastal Vulnerability to Sea Level Rise</strong><a class="portfolio-link" href="../../index.html#portfolio">/ portfolio</a></h1>
+          		<h1 class="mt-4 text-center display-4"><strong>GIS Data Quality Reporting Framework and Dashboard</strong><a class="portfolio-link" href="../../../index.html#portfolio">/ portfolio</a></h1>
 
  
 
@@ -63,25 +63,33 @@
 	        	<!-- Preview Image -->
 	        	<!-- <img class="img-fluid rounded" src="http://placehold.it/900x300" alt=""> -->
 	        	<div class="post-content" itemprop="articleBody">
-							<iframe width="100%" height="590px" frameborder="0" src="http://cartoaz.github.io/CoastalVulnerability/"></iframe>
+							<p class="portfolio-asset"><video class="img-fluid" controls="controls" src="../../../assets/video/zarley_geog777_proj2_appdemo.mp4" alt="Petra Park"/></p>
 						</div>
 	        	<hr>
 
 		        <!-- Post Content -->
-            <p><small>(if interactive map does not appear you will need to change your browser settings to allow http content to load)</small></p>
 		        <p><strong>About:</strong>
-				      This assignment had us choose a multivariate dataset with which we could learn D3 by creating an <a href="https://github.com/CartoAZ/CoastalVulnerability">interactive choropleth map</a> and a linked visualization. The datasets I used came from a <a href="http://pubs.usgs.gov/of/1999/of99-593/pages/cvi.html">USGS study</a> that was published in 1999-2000. This map and parallel coordinate plot visualize this dataset in geographic, as well as attribute, space and allow you to expolore the vulnerability to future sea level rise of each state along the US Atlantic and Gulf coasts. You can change the attribute being displayed in the dropdown menu and add filters on any variable by clicking and dragging vertically on the parallel coordinate plot. The shapefiles and attribute data for each individual state can also be downloaded by clicking the export button.
+				      This was my final project for my MS in Cartography and GIS at University of Wisconsin-Madison. I
+                  perform a lot of data quality analyses at the electric utility where I work, so I wanted to create a
+                  framework to standardize the way data quality project information was catalogued, and create a single
+                  database table to store a common set of attribute and spatial information for every data quality error
+                  identified in our GIS. This single table would allow analysts to perform quick, high-level queries to
+                  provide answers about data quality in our GIS without having to join to multiple tables and perform
+                  time-intensive spatial queries. It would also allow us to visualize data quality errors in an AGOL dashboard.
+                  <a href="../../../assets/GIS/zarley_project2_report.pdf" target="_blank">Project Report</a>
             </p>
-
       			<hr>
 
       			<p><strong>Process:</strong>
-				      This project required a lot of data preprocessing. The datasets for each coast had to be combined, and then a state identifier had to be assigned to each segment of coastline using SQL queries in ArcGIS. Once the data was converted from shapefile to topojson, I used D3 and JavaScript to create the map, the linked parallel coordinate plot and the other elements on the webpage. Static styling was done in CSS and dynamic styling was done with D3 and JavaScript.
+
+
             </p>
+		
+
 				<hr>
 
 		        <!-- Date/Time -->
-		        <p>Completed April 2016</p>
+		        <p>Completed December 2020</p>
 		        
         	</div>
         </div>
@@ -126,8 +134,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../../js/jquery/jquery.js"></script>
-    <script src="../../js/bootstrap/bootstrap.bundle.js"></script>
+    <script src="../../../js/jquery/jquery.js"></script>
+    <script src="../../../js/bootstrap/bootstrap.bundle.js"></script>
 
   </body>
 
